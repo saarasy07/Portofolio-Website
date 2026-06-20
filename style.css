@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, sans-serif;
+    color: #444;
+}
+
+/* Navbar */
+.navbar{
+    background-color: white !important;
+}
+
+/* Home */
+.hero-section{
+    background-color: #FFF7F2;
+    padding: 120px 0;
+}
+
+#greeting{
+    color: #7A9CC6;
+    font-weight: 600;
+}
+
+/* Projects */
+#projects{
+    padding: 80px 0;
+}
+
+.card{
+    border: none;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+.card-img-top{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Contact */
+#contact{
+    background-color: #EEF7F6;
+    padding: 80px 0;
+}
+
+.btn{
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px 20px;
+    transition: .3s;
+}
+
+.github-btn{
+    background-color: #DCE8F2;
+}
+
+.linkedin-btn{
+    background-color: #E8DFF5;
+}
+
+.email-btn{
+    background-color: #FFE5EC;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
